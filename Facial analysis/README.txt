@@ -1,5 +1,8 @@
 Facial training and testing setup on windows:
 
+The models created are to big to be added on the GitHub.
+The whole proccess must to be recreated in order to make the application to run.
+
 	a.Install Microsoft Visual Studio
 
 	b.Install Anaconda
@@ -30,7 +33,7 @@ Facial training and testing setup on windows:
 
 	f.Open and run the code.
 		In Jupyter Notebook click on kernel and then on restart and run all
-		Save the models in  Models folder
+		Save the models in Models folder
 		Run the GUI
 	
 	g.Hardware requirements
@@ -38,5 +41,6 @@ Facial training and testing setup on windows:
 		Ram:32GB
 		GPU:8GB compatible with tensorflow, CUDA and cuDNN	
 		
+
 
 		
