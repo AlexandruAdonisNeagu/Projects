@@ -1,0 +1,11 @@
+Model Information:
+* title:	Football goal
+* source:	https://sketchfab.com/3d-models/football-goal-73e091e77fb149d588c534491c16b1bb
+* author:	3DDomino (https://sketchfab.com/3DDomino)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Football goal" (https://sketchfab.com/3d-models/football-goal-73e091e77fb149d588c534491c16b1bb) by 3DDomino (https://sketchfab.com/3DDomino) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

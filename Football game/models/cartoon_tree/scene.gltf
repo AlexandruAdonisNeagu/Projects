@@ -1,0 +1,442 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 3201,
+      "max": [
+        1.5168900489807129,
+        1.3945000171661377,
+        2.2894599437713623
+      ],
+      "min": [
+        -1.1411000490188599,
+        -1.6648999452590942,
+        -1.9563800096511841
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 38412,
+      "componentType": 5126,
+      "count": 3201,
+      "max": [
+        1,
+        0.99999994039535522,
+        0.99999791383743286
+      ],
+      "min": [
+        -1,
+        -0.99999994039535522,
+        -0.99987238645553589
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 3201,
+      "max": [
+        0.99980956315994263,
+        0.99999153614044189,
+        0.99985599517822266,
+        1
+      ],
+      "min": [
+        -0.99953973293304443,
+        -0.9998856782913208,
+        -0.99955129623413086,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 3201,
+      "max": [
+        1,
+        1
+      ],
+      "min": [
+        0,
+        0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 11664,
+      "max": [
+        3200
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 76824,
+      "componentType": 5126,
+      "count": 6520,
+      "max": [
+        4.6491799354553223,
+        7.1735501289367676,
+        5.6980400085449219
+      ],
+      "min": [
+        -4.7728700637817383,
+        -6.1051797866821289,
+        -6.8873600959777832
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 155064,
+      "componentType": 5126,
+      "count": 6520,
+      "max": [
+        0.9995959997177124,
+        0.99562627077102661,
+        0.99949777126312256
+      ],
+      "min": [
+        -0.99479162693023682,
+        -0.9966273307800293,
+        -0.99641615152359009
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 51216,
+      "componentType": 5126,
+      "count": 6520,
+      "max": [
+        0.99954849481582642,
+        0.99931520223617554,
+        0.99995326995849609,
+        1
+      ],
+      "min": [
+        -0.9998164176940918,
+        -0.99909579753875732,
+        -0.99974894523620605,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 25608,
+      "componentType": 5126,
+      "count": 6520,
+      "max": [
+        1,
+        1
+      ],
+      "min": [
+        0,
+        0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 46656,
+      "componentType": 5125,
+      "count": 19200,
+      "max": [
+        6519
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Dario.Aparicio.Valentin (https://sketchfab.com/Dario.Aparicio.Valentin)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/cartoon-tree-87b66455dda5411e830a0f1e8570c490",
+      "title": "Cartoon tree"
+    },
+    "generator": "Sketchfab-4.54.1",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 123456,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 77768,
+      "byteOffset": 123456,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 233304,
+      "byteOffset": 201224,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 155536,
+      "byteOffset": 434528,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 590064,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Material_baseColor.png"
+    },
+    {
+      "uri": "textures/arbol_normal.png"
+    },
+    {
+      "uri": "textures/arbol_baseColor.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "Material",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.59999999999999998
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "arbol",
+      "normalTexture": {
+        "index": 1,
+        "scale": 0.46296119689999998,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 2,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.59999999999999998
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "tronco.001_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Esfera.016_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.1672770231962204,
+        -0.38872250914573669,
+        -0.61426258087158203,
+        1
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3,
+        5
+      ],
+      "name": "Root"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -7.5953999999999997,
+        -5.3205199999999992,
+        0.89816000000000007,
+        1
+      ],
+      "name": "tronco.001"
+    },
+    {
+      "mesh": 0,
+      "name": "tronco.001_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        -0.23050000000000001,
+        -0.25323999999999997,
+        -0.32276000000000005,
+        0,
+        0.22136000000000003,
+        0.13199000000000002,
+        -0.26163999999999998,
+        0,
+        0.26672000000000001,
+        -0.3228100000000001,
+        0.062800000000000009,
+        0,
+        -7.1520099999999989,
+        -5.0298699999999998,
+        3.67611,
+        1
+      ],
+      "name": "Esfera.016"
+    },
+    {
+      "mesh": 1,
+      "name": "Esfera.016_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
+
