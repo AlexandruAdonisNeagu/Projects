@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app",
+    "\\app\\pages",
+    "\\app\\pages\\modules-teacher",
+    "\\app\\pages\\private-chat",
+    "\\app\\pages\\profile",
+    "\\app\\pages\\profile-teacher",
+    "\\app\\pages\\register",
+    "\\assets",
+    "\\environments"
+  ],
+  "SelectedNode": "\\app\\pages\\private-chat\\private-chat.component.html",
+  "PreviewInSolutionExplorer": false
+}

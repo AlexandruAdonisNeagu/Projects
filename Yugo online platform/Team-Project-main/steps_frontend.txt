@@ -1,0 +1,9 @@
+1. install node.js
+2. in frontend folder, open cmd:
+	2.1 'npm install -g @angular/cli' 
+	2.2 'npm install'
+	2.3 'ng serve -o'
+
+2.1 - to install angular
+2.2 - to install angular project dependencies
+2.3 - to run the frontend project

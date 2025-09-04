@@ -1,0 +1,9 @@
+Frontend:
+
+1. Download and install the node.js engine from https://nodejs.org/en/ .
+2. Open a command line in the root of the frontend folder.
+3. Execute 'npm install @angular/cli' and wait for the installation to finish.
+4. Execute 'npm install' to install angular project dependencies.
+5. In the frontend folder access the "src" folder, than the "environments" folder.
+6. In the file named einvironment.ts make sure that the url path is the fallowing 'http://localhost:5000' .
+7. Excute 'ng serve -o' to run the frontend project and wait for process to complete.

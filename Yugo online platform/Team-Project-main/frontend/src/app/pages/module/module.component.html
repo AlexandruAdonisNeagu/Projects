@@ -1,0 +1,44 @@
+<app-header></app-header>
+<div class="container">
+  <br />
+  <div class="card">
+    <div *ngIf="module" style="border-left: 7px solid aqua; padding-left: 20px">
+      <h1>{{ module.name }}</h1>
+      <h4><b>Teacher:</b>  {{ module.teacher_name }}</h4>
+    </div>
+    <br />
+    <br />
+    <div class="mesgs">
+      <div #scrollMe [scrollTop]="scrollMe.scrollHeight" class="msg_history">
+        <div *ngFor="let message of messages">
+
+          <div *ngIf="message.email != email" class="incoming_msg">
+            <div class="received_msg">
+              <div class="received_withd_msg">
+                <h6 class="time_date"> {{message.name}}</h6>
+                <p>{{message.content}}</p>
+              <span class="time_date"> {{message.date}}</span>
+              </div>
+            </div>
+          </div>
+
+          <div *ngIf="message.email == email" class="outgoing_msg">
+            <div class="sent_msg">
+              <p>{{message.content}}</p>
+              <span class="time_date"> {{message.date}}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="type_msg">
+        <div class="input_msg_write">
+          <input [(ngModel)]="message" type="text" class="write_msg" placeholder="Type a message" />
+          <button (click)="sendMessage()" class="msg_send_btn" type="button">
+            <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="jitsi-iframe"></div>
+  </div>
+</div>

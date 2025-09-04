@@ -1,0 +1,53 @@
+Facial recognition and model training setup on windows:
+
+	a.Install Microsoft Visual Studio
+
+	b.Install Anaconda
+		Download and install anaconda following the steps:https://docs.anaconda.com/anaconda/install/windows/
+	
+	c.Download and install the latest NVIDIA CUDA Toolkit and cuDNN
+		Download NVIDIA CUDA Toolkit from https://developer.nvidia.com/cuda-toolkit-archive
+		Download cuDNN from https://developer.nvidia.com/rdp/cudnn-archive
+		Install CUDA by simply running the executable file (.exe)
+		Unzip the cuDNN library and move all the files to the CUDA directory
+
+	d.Create a virtual environment and install python
+		Open Anaconda Prompt and type the following command: conda create -n python_tensorflow
+		Activate the environment: conda activate python_tensorflow
+
+	e.Using the Anaconda Promt install the following packages in the environment created:
+		Tensorflow: pip install tensorflow
+		Numpy: pip install numpy
+		OpenCV: pip install opencv-python
+		Flask:  pip install Flask
+		IPython: pip install ipython
+		Json:  pip install jsonlib
+		Jupyter: pip install jupyter
+
+	f.Create a new folder using jupyer notebook and paste the code inside
+
+	g.Open and run the code.
+		In Jupyter Notebook click on kernel and then on restart and run all
+	
+	h.Hardware requirements
+		Processor: Intel core i5
+		Ram:16GB
+		GPU:7GB comaptible with tensorflow, CUDA and cuDNN	
+
+Backend and database connection
+
+1. All required librieries for the backedn are writen in requirements_backend.txt 
+2. Import the tables from the Team Project Folder into a mysql(or prefered datbase service) schema 
+3. Host the database locally or on any prefered service and modify the code on line 43 to path to the imported schema
+4. to host the backend locally enter the envirment where all the requirements_backend.txt are, run the terminal use the commands set FLASK_APP=backend.py and flaks run
+
+Frontend:
+
+1. Download and install the node.js engine from https://nodejs.org/en/ .
+2. Open a command line in the root of the frontend folder.
+3. Execute 'npm install @angular/cli' and wait for the installation to finish.
+4. Execute 'npm install' to install angular project dependencies.
+5. In the frontend folder access the "src" folder, than the "environments" folder.
+6. In the file named einvironment.ts make sure that the url path is the fallowing 'http://localhost:5000' .
+7. Excute 'ng serve -o' to run the frontend project and wait for process to complete.
+

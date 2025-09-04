@@ -1,0 +1,11 @@
+<app-header></app-header>
+<div class="container">
+  <br />
+  <div class="card">
+      <h1>My Modules</h1>
+      <br />
+      <div (click)="goToModule(module.module_id)" *ngFor="let module of modules;  let i = index" class="card-body" [ngStyle]="{'border-left': '7px solid' + colorPallette[i % (modules.length - 1)]}">
+        <h3>{{module.name}}</h3>
+      </div>
+  </div>
+</div>

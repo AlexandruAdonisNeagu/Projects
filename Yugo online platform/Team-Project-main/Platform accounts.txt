@@ -1,0 +1,15 @@
+Teacher accounts
+
+user:scursaru@benchea.co
+password:bencheaboss2
+
+user:scrumaru@benchea.co
+passwords:bencheaboss3
+
+User accounts can be made through the registration and som current users are: 
+
+user:adonision@yahoo.com
+password:parola
+
+user:anapetcu@yahoo.com
+password:parola
